@@ -1,0 +1,26 @@
+
+.container{
+    width:100%;
+    background-color: #43556d;
+    margin-top: 30px;
+   padding-top: 30px;
+}
+
+.mainList{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.movieItem{
+    width: 300px;
+    background-color: #f3e9db;
+   border: solid 8px #F7882F;
+    border-radius: 3%;
+    padding: 30px 0 30px 0;
+    margin: 50px 0 50px 50px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 15px 0 rgba(0, 0, 0, 0.35);
+    
+ 
+}

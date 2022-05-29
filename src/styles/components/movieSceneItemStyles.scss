@@ -1,0 +1,40 @@
+
+.list{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  
+
+
+&__poster{
+    width: 200px;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+&__title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:#F7C331;
+text-decoration: none;
+font-weight: 800;
+
+}
+
+&__line{
+    width:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+   
+
+}
+&__year{
+    width:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+  font-weight: 700;
+
+}
+
+}

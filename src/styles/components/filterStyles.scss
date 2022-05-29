@@ -1,0 +1,44 @@
+.filtersContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;;
+    
+}
+
+.filterMovie{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-right: 10px;
+    
+}
+
+.filterInput{
+    width: 180px;
+    height: 25px;
+    border-radius: 13px;
+    border: none;
+  
+}
+
+.filterYear{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.filterSelect{
+    width: 60px;
+    height: 25px;
+    border-radius: 13px;
+    border: none;
+  
+}
+
+.filterValue{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
