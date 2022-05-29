@@ -12,7 +12,7 @@ import MovieSceneDetail from './MovieSceneDetail';
 
 //styles
 import '../styles/components/mainMovieList.scss';
-
+import '../styles/components/movieDetailStyle.scss';
 function App() {
   //Creo variable de estado donde voy a guardar:
   // mi listado inicial cuando carga la pagina --viene de la API
@@ -84,7 +84,7 @@ function App() {
 
   return (
     <>
-      <h1> Owen Wilson "WOW"</h1>
+      <h1 className='title'> Owen Wilson "WOW"</h1>
 
       <div className='container'>
         <Routes>
@@ -105,6 +105,7 @@ function App() {
               </>
             }
           />
+
           <Route
             path='/movie/:movieId'
             element={<MovieSceneDetail movieItem={movieFound} />}

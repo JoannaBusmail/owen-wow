@@ -13,16 +13,21 @@ function MovieSceneDetail(props) {
             alt={props.movieItem.movie}
             src={props.movieItem.poster}
           />
-          <h4>Película: {props.movieItem.movieName}</h4>
-          <p>Frase WOW: {props.movieItem.fullLine}</p>
-          <p>Director: {props.movieItem.director}</p>
-          {
-            <a href={props.movieItem.audio} target='_blank'>
-              Escucha el WOW{' '}
-            </a>
-          }
+          <div className='containerText'>
+            <h4>Película: {props.movieItem.movieName}</h4>
+            <p>Frase WOW: {props.movieItem.fullLine}</p>
+            <p>Director: {props.movieItem.director}</p>
+            {
+              <a href={props.movieItem.audio} target='_blank'>
+                Escucha el WOW{' '}
+              </a>
+            }
+          </div>
         </article>
-        <Link to='/'> Volver</Link>
+        <Link className='back' to='/'>
+          {' '}
+          Volver
+        </Link>
       </>
     );
   }
