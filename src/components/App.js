@@ -9,6 +9,7 @@ import lsObject from './services/ls';
 import MovieSceneList from './MovieSceneList';
 import Filters from './Filters';
 import MovieSceneDetail from './MovieSceneDetail';
+import Header from './Header';
 
 //styles
 import '../styles/components/mainMovieList.scss';
@@ -84,7 +85,7 @@ function App() {
 
   return (
     <>
-      <h1 className='title'> Owen Wilson "WOW"</h1>
+      <Header />
 
       <div className='container'>
         <Routes>

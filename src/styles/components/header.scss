@@ -1,0 +1,42 @@
+.header{
+    height: 100px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    padding-bottom: 30px;
+    background-color: #F7882f;
+
+}
+
+.headerCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+&__titleOne{
+    margin-bottom: 50px;
+    color: #f7c331;
+    font-size: 32px;
+    transform: translateX(83px);
+}
+&__titleTwo{
+    margin-bottom: 50px;
+}
+&__titleThree{
+    margin-bottom: 50px;
+}
+&__titleFour{
+    margin-bottom: 50px;
+    color: #f7c331;
+    font-size: 32px;
+    transform: translateX(-83px);
+}
+
+&__logo{
+    width: 150px;
+    margin-bottom: 30px;
+  position: relative;
+  bottom: 15px;
+}
+}
